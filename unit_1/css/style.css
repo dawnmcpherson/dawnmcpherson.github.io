@@ -1,5 +1,8 @@
 body{
-	color: #978F71;
 	background-color: #EEE8D3;
-	font-family: Arial, sans-serif;
 }
+h1,p{
+	font-family: Arial, sans-serif;
+	color:#978F71  
+}
+
