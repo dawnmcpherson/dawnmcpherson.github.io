@@ -1,5 +1,5 @@
 body {
-	background-image: url("http://imgur.com/JEHw9Pk");
+	background-image: url("http://i.imgur.com/JEHw9Pk.jpg");
 	background-size: cover;
 	color: #D5F6FF;
 	font-family: Arial, Helvetica, serif;
@@ -24,6 +24,25 @@ h1 {
 	font-weight: 400;
 	line-height: 22px;
 }
+#slogan_wrapper {
+	width: 15%;
+	float: right;
+	padding-top: 5%;
+	padding-right: 5%;
+}
+
+#menu{
+	width: 20%;
+	float: left;
+	padding-top: 5%;
+	padding-right: 8%;
+}
+
+#contact_us {
+	width: 100%;
+	padding-top: 40%;
+	text-align: center;
+}
 
 p, ul {
 	font-family: "Century Gothic", sans-serif;
@@ -43,11 +62,15 @@ a {
 	line-height: 20px;
 }
 
-a:link{color: #9DEBE9 ;
+a:link{color: #9DEBE9;
 }
 
 a:visited{color: white;
 }
 
 a:hover{color:#CC5DFF;
+}
+
+a{
+	font-weight: 800;
 }
