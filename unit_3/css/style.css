@@ -38,12 +38,6 @@ h1 {
 	padding-right: 8%;
 }
 
-#contact_us {
-	width: 100%;
-	padding-top: 40%;
-	text-align: center;
-}
-
 p, ul {
 	font-family: "Century Gothic", sans-serif;
 	font-size: 18px;
@@ -71,6 +65,3 @@ a:visited{color: white;
 a:hover{color:#CC5DFF;
 }
 
-a{
-	font-weight: 800;
-}
