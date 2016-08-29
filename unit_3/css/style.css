@@ -25,10 +25,10 @@ h1 {
 	line-height: 22px;
 }
 #slogan_wrapper {
-	width: 15%;
+	width: 20%;
 	float: right;
 	padding-top: 5%;
-	padding-right: 5%;
+	padding-right: 2%;
 }
 
 #menu{
@@ -36,6 +36,7 @@ h1 {
 	float: left;
 	padding-top: 5%;
 	padding-right: 8%;
+	padding-left: 2%;
 }
 
 p, ul {
