@@ -1,12 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
 
-
 body {
-	background-image: url("http://i.imgur.com/JEHw9Pk.jpg");
-	background-size: cover;
+	background-color: gray;
 	color: #D5F6FF;
-	font-family: Arial, Helvetica, serif;
 }
+
+.bgSizeContain {
+  height: 500px;
+  background-image: url("http://i.imgur.com/JEHw9Pk.jpg");
+  background-size: contain;
+  background-size: cover;
+  background-position: center;
+  }
 
 h1 {
 	text-align: center;
@@ -16,10 +21,10 @@ h1 {
 	font-variant: small-caps;
 	font-weight: 400;
 	line-height: 22px;
-}
+	}
 
 #slogan {
-	text-align: right;
+	text-align: left;
 	font-family: "Century Gothic", sans-serif;
 	font-size: 25px;
 	font-style: italic;
@@ -34,7 +39,7 @@ h1 {
 	padding-right: 2%;
 }
 
-#menu{
+#menu {
 	width: 20%;
 	float: left;
 	padding-top: 5%;
@@ -54,7 +59,7 @@ p, ul {
 a {
 	font-family: "Century Gothic", sans-serif;
 	font-size: 16px;
-	font-style: italic;
+	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 20px;
@@ -68,4 +73,13 @@ a:visited{color: white;
 
 a:hover{color:#CC5DFF;
 }
+
+#nav li, a{
+  display: inline;
+  list-style-type: none;
+  line-height: 4em;
+  text-decoration: none;
+  padding-right: 2em;
+  font-style: bold;
+ }
 
